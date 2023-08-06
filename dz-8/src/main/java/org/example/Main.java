@@ -13,6 +13,7 @@ public class Main {
         StudentsGroup group = new StudentsGroup(student1);
         group.addStudent(student2);
         group.addStudent(student3);
+        group.removeStudent(3);
 
         Task newTask = new Task(1,"Task1Description");
         group.addTask(newTask);
